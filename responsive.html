@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> codding </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <link rel="stylesheet" href="responsive.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+    <header>
+            <div class="logo"> Coding Nepal</div>
+            <div class="nav-links" id="navLinks">
+             <i class="fa-solid fa-xmark" onclick="hiddenMenu()"></i>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#"> About </a>
+                <a href="#">Services</a>
+                <a href="#">Project</a>
+                <a href="#">contact</a>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+        </header>
+    <section class="hero">
+        <div class="row">
+            <div class="column">
+                <h2>Top free tool and extensiom to <br> radiply grow your business</h2>
+                <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil reiciendis laborum fugit quasi dolor porro! Ullam nam, facere eligendi quo dolorem porro voluptas iure, maiores nisi, debi quam sint quis.</p>
+                <div class="button">
+                    <button class="btn"> Read More</button>
+                    <button class="btn"> Contact Us</button>
+                </div>
+            </div>
+            <div class="column">
+                <img src="seobg.png" alt="heroImg" class="hero_img">
+            </div>
+        </div>
+    </section>
+    <script>
+             var navLinks = document.getElementById("navLinks");
+             function showMenu(){
+                navLinks.style.right= "0";
+             }
+             function hiddenMenu(){
+                navLinks.style.right = "-200px";
+             }
+        </script>
+       
+    </body>
+
+</html>
